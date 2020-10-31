@@ -260,25 +260,25 @@
     .about-content h3 {
         font-size: 26px;
     }
-    
+
     /* services */
     #services {
         padding: 50px 0;
     }
-    
+
     .service-wrapper {
-    margin-top: 120px;
-}
+        margin-top: 120px;
+    }
 
     /* skills */
     #skills {
-    padding: 50px 0;
-}
-    
+        padding: 50px 0;
+    }
+
     .progress-elements {
-    padding: 65px 0 50px;
-}
-    
+        padding: 65px 0 50px;
+    }
+
     .skill {
         margin-bottom: 10px;
     }
@@ -302,20 +302,21 @@
         margin-right: auto;
         margin-left: auto;
     }
-    
+
     /* work */
     #work {
-    padding: 50px 0;
-}
+        padding: 50px 0;
+    }
 
     /* blogs */
     #blogs {
-    padding: 50px 0;
-}
+        padding: 50px 0;
+    }
+
     .blogs {
-    margin-top: 80px;
-}
-    
+        margin-top: 80px;
+    }
+
     .lst {
         margin-right: auto;
         margin-left: auto;
@@ -328,17 +329,17 @@
     .blog {
         margin-bottom: 30px;
     }
-    
+
     /* clients */
     #clients {
-    padding: 60px 0;
-}
+        padding: 60px 0;
+    }
 
     /* contact */
     #contact {
-    padding: 50px 0;
-}    
-    
+        padding: 50px 0;
+    }
+
     .contact-section {
         margin-top: 60px;
     }
@@ -411,9 +412,36 @@
         display: none;
     }
 
+    .line1,
+    .line2,
+    .line3 {
+        height: 3px;
+        margin: 6px;
+    }
+
+    .line1,
+    .line3 {
+        width: 27px;
+    }
+
+    .line2 {
+        width: 18px;
+        margin-left: auto;
+    }
+
+    .change .line1 {
+        -webkit-transform: rotate(-45deg) translate(-7px, 8px);
+        transform: rotate(-45deg) translate(-7px, 8px);
+    }
+
+    .change .line3 {
+        -webkit-transform: rotate(45deg) translate(-4px, -5px);
+        transform: rotate(45deg) translate(-4px, -5px);
+    }
+
     /* banner */
     #banner {
-        background-image: url(../img/banner-768-991.png);
+        background-image: url(../img/banner-576.png);
         align-items: flex-end;
     }
 
@@ -422,11 +450,11 @@
     }
 
     .text-2 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .text-3 {
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .banner-wrapper {
@@ -436,6 +464,7 @@
     /* btns */
     .btn {
         padding: 5px 22px;
+        font-size: 14px;
     }
 
     /* section title */
@@ -464,25 +493,25 @@
     .about-content h3 {
         font-size: 26px;
     }
-    
+
     /* services */
     #services {
         padding: 50px 0;
     }
-    
+
     .service-wrapper {
-    margin-top: 120px;
-}
+        margin-top: 120px;
+    }
 
     /* skills */
     #skills {
-    padding: 50px 0;
-}
-    
+        padding: 50px 0;
+    }
+
     .progress-elements {
-    padding: 65px 0 50px;
-}
-    
+        padding: 65px 0 50px;
+    }
+
     .skill {
         margin-bottom: 10px;
     }
@@ -506,20 +535,21 @@
         margin-right: auto;
         margin-left: auto;
     }
-    
+
     /* work */
     #work {
-    padding: 50px 0;
-}
+        padding: 50px 0;
+    }
 
     /* blogs */
     #blogs {
-    padding: 50px 0;
-}
+        padding: 50px 0;
+    }
+
     .blogs {
-    margin-top: 80px;
-}
-    
+        margin-top: 80px;
+    }
+
     .lst {
         margin-right: auto;
         margin-left: auto;
@@ -532,17 +562,17 @@
     .blog {
         margin-bottom: 30px;
     }
-    
+
     /* clients */
     #clients {
-    padding: 60px 0;
-}
+        padding: 60px 0;
+    }
 
     /* contact */
     #contact {
-    padding: 50px 0;
-}    
-    
+        padding: 50px 0;
+    }
+
     .contact-section {
         margin-top: 60px;
     }

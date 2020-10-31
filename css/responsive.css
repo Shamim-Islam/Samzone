@@ -60,7 +60,12 @@
     }
 
     #myNavbar ul li {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    #myNavbar ul li a {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .nav-link:after {
@@ -173,6 +178,7 @@
     /* navigation */
     .navbar-brand img {
         padding-left: 15px;
+        height: 35px;
     }
 
     #myNavbar ul {
@@ -189,7 +195,12 @@
     }
 
     #myNavbar ul li {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    #myNavbar ul li a {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .nav-link:after {
@@ -202,12 +213,25 @@
         align-items: flex-end;
     }
 
+    .text-1 {
+        font-size: 30px;
+    }
+
     .text-2 {
-        font-size: 60px;
+        font-size: 50px;
+    }
+
+    .text-3 {
+        font-size: 33px;
     }
 
     .banner-wrapper {
-        margin-bottom: 135px;
+        margin-bottom: 100px;
+    }
+
+    /* btns */
+    .btn {
+        padding: 5px 22px;
     }
 
     /* section title */
@@ -216,6 +240,10 @@
     }
 
     /* about */
+    #about {
+        padding: 50px 0;
+    }
+
     .abt-wrapper {
         margin-top: 70px;
         text-align: center;
@@ -230,10 +258,27 @@
     }
 
     .about-content h3 {
-        font-size: 28px;
+        font-size: 26px;
     }
+    
+    /* services */
+    #services {
+        padding: 50px 0;
+    }
+    
+    .service-wrapper {
+    margin-top: 120px;
+}
 
     /* skills */
+    #skills {
+    padding: 50px 0;
+}
+    
+    .progress-elements {
+    padding: 65px 0 50px;
+}
+    
     .skill {
         margin-bottom: 10px;
     }
@@ -245,14 +290,32 @@
 
     /* state */
     .t-state {
-        margin: 90px auto;
+        margin: 70px auto;
     }
 
     .t-state h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
+    .t-state p {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    /* work */
+    #work {
+    padding: 50px 0;
+}
+
     /* blogs */
+    #blogs {
+    padding: 50px 0;
+}
+    .blogs {
+    margin-top: 80px;
+}
+    
     .lst {
         margin-right: auto;
         margin-left: auto;
@@ -262,9 +325,22 @@
         font-size: 17px;
     }
 
+    .blog {
+        margin-bottom: 30px;
+    }
+    
+    /* clients */
+    #clients {
+    padding: 60px 0;
+}
+
     /* contact */
+    #contact {
+    padding: 50px 0;
+}    
+    
     .contact-section {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     form h4 {
@@ -290,11 +366,15 @@
         padding: 20px 0;
         line-height: 28px;
     }
+
+    .btn-back-to-top {
+        display: none !important;
+    }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    
+
     p {
         font-size: 14px;
     }
@@ -302,6 +382,7 @@
     /* navigation */
     .navbar-brand img {
         padding-left: 15px;
+        height: 35px;
     }
 
     #myNavbar ul {
@@ -318,7 +399,12 @@
     }
 
     #myNavbar ul li {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    #myNavbar ul li a {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .nav-link:after {
@@ -331,12 +417,25 @@
         align-items: flex-end;
     }
 
+    .text-1 {
+        font-size: 30px;
+    }
+
     .text-2 {
-        font-size: 60px;
+        font-size: 50px;
+    }
+
+    .text-3 {
+        font-size: 33px;
     }
 
     .banner-wrapper {
-        margin-bottom: 135px;
+        margin-bottom: 100px;
+    }
+
+    /* btns */
+    .btn {
+        padding: 5px 22px;
     }
 
     /* section title */
@@ -345,6 +444,10 @@
     }
 
     /* about */
+    #about {
+        padding: 50px 0;
+    }
+
     .abt-wrapper {
         margin-top: 70px;
         text-align: center;
@@ -359,10 +462,27 @@
     }
 
     .about-content h3 {
-        font-size: 28px;
+        font-size: 26px;
     }
+    
+    /* services */
+    #services {
+        padding: 50px 0;
+    }
+    
+    .service-wrapper {
+    margin-top: 120px;
+}
 
     /* skills */
+    #skills {
+    padding: 50px 0;
+}
+    
+    .progress-elements {
+    padding: 65px 0 50px;
+}
+    
     .skill {
         margin-bottom: 10px;
     }
@@ -374,14 +494,32 @@
 
     /* state */
     .t-state {
-        margin: 90px auto;
+        margin: 70px auto;
     }
 
     .t-state h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
+    .t-state p {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    /* work */
+    #work {
+    padding: 50px 0;
+}
+
     /* blogs */
+    #blogs {
+    padding: 50px 0;
+}
+    .blogs {
+    margin-top: 80px;
+}
+    
     .lst {
         margin-right: auto;
         margin-left: auto;
@@ -391,9 +529,22 @@
         font-size: 17px;
     }
 
+    .blog {
+        margin-bottom: 30px;
+    }
+    
+    /* clients */
+    #clients {
+    padding: 60px 0;
+}
+
     /* contact */
+    #contact {
+    padding: 50px 0;
+}    
+    
     .contact-section {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     form h4 {
@@ -418,5 +569,9 @@
     footer p {
         padding: 20px 0;
         line-height: 28px;
+    }
+
+    .btn-back-to-top {
+        display: none !important;
     }
 }

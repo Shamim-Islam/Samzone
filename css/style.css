@@ -406,7 +406,7 @@ hr {
 }
 
 .t-state {
-    margin: 140px auto;
+    margin: 120px auto;
     color: #fff;
 }
 
@@ -715,7 +715,7 @@ footer span {
 .btn-back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 10px;
     padding: 2px 14px;
     font-size: 20px;
     border-radius: 10px;

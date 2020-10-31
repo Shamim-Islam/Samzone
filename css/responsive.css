@@ -493,6 +493,10 @@
     .about-content h3 {
         font-size: 26px;
     }
+    
+    #about hr {
+        display: none;
+    }
 
     /* services */
     #services {

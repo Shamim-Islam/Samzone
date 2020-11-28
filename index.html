@@ -33,13 +33,19 @@
 
     <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+
     <!-- Responsive css -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="55">
+<body data-spy="scroll" data-target=".navbar" data-offset="58">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <!-- End of preloader -->
 
     <!-- navigation section -->
     <section id="nav-bar">
@@ -49,28 +55,38 @@
             <div class="container">
 
                 <!-- logo -->
-                <a class="smooth-scroll navbar-brand" href="#banner"><img src="img/main-logo-1.png" class="img-fluid" alt="logo"></a>
+                <a class="smooth-scroll navbar-brand" href="#banner"><img src="img/main-logo.png" class="img-fluid" alt="logo"></a>
 
                 <!-- mobile menu -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="toggle" onclick="toggleMenu();">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
-                </button>
-
-                <div class="collapse navbar-collapse" id="myNavbar">
-
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#banner">Home</a></li>
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#work">Work</a></li>
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#blogs">Blogs</a></li>
-                        <li class="nav-item"><a class="smooth-scroll nav-link" href="#contact">Contact</a></li>
-                    </ul>
-
                 </div>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#blogs">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smooth-scroll nav-link" onclick="toggleMenu();" href="#contact">Contact</a>
+                    </li>
+                </ul>
 
             </div>
 
@@ -682,30 +698,28 @@
         </div>
 
     </section>
-    
+
     <!-- footer section -->
     <footer>
-       
+
         <div class="container">
-            
+
             <div class="row">
-                
+
                 <div class="col-md-12 text-center">
                     <p>Copyright &copy; 2020 By Samzone. All Rights Reserved. <br>Made With <i class="far fa-heart"></i> By <span>Shamim Islam</span></p>
                 </div>
-                
+
             </div>
-                        
+
         </div>
-        
+
         <!-- Back To Top -->
         <a href="#banner" id="back-to-top" class="btn btn-fill-blk btn-back-to-top smooth-scroll" title="home" role="button">
             <i class="fas fa-angle-up"></i>
         </a>
-        
+
     </footer>
-
-
 
 
 

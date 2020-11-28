@@ -1,4 +1,3 @@
-
 /*
 :root {
     --primary: #3DCFD3;
@@ -17,7 +16,9 @@
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -29,7 +30,7 @@ body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 /*------------------------ Generic css ------------------------*/
@@ -60,7 +61,7 @@ body {
 }
 
 .btn-fill,
-.btn-fill-blk{
+.btn-fill-blk {
     background-color: #3dcfd3;
     color: #000;
 }
@@ -83,6 +84,30 @@ body {
 .btn-outline:hover {
     background: #3dcfd3;
     color: #000;
+}
+
+/*------------------------ Preloader ------------------------*/
+
+#preloader {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url("../img/preloader.gif");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
 }
 
 /*------------------------ Nabigation ------------------------*/
@@ -123,6 +148,11 @@ body {
     color: #3dcfd3;
 }
 
+/* scroll spy active state */
+.navbar-nav > li > a.active {
+    color: #3dcfd3;
+}
+
 .nav-link:after {
     content: "";
     position: absolute;
@@ -139,10 +169,19 @@ body {
     transition: all .3s;
 }
 
-.nav-link:hover:after {
+.nav-link:hover:after,
+.nav-link.active:after {
     -webkit-transform: translateX(-50%) scaleX(1);
     transform: translateX(-50%) scaleX(1);
 }
+
+/*------------- toggler btn ------------*/
+.toggle {
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+/*-------------------------*/
 
 .line1,
 .line2,
@@ -219,7 +258,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);*/
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);*/
 }
 
 /*------------------------ About section ------------------------*/
@@ -398,8 +437,8 @@ hr {
 /*------------------------ state section ------------------------*/
 
 #state {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(../img/tech-statement.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/tech-statement.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/tech-statement.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/tech-statement.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -429,11 +468,11 @@ hr {
 }
 
 #work .col-md-4 {
-    padding: 10px !important; 
+    padding: 10px !important;
 }
 
 .web-wrapper {
-    margin-top: 70px;  
+    margin-top: 70px;
 }
 
 .web-wrapper h2 {
@@ -584,7 +623,7 @@ hr {
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-    background: #161616;    
+    background: #161616;
 }
 
 /*------------------------ Contact section ------------------------*/
@@ -654,12 +693,12 @@ textarea:focus {
 }
 
 .contact-info .list-info .info-icon i {
-    -webkit-transform: translate(0,-50%);
+    -webkit-transform: translate(0, -50%);
     left: 0;
     line-height: 100%;
     position: absolute;
     top: 50%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
 }
 
 .info-icon i {
@@ -669,9 +708,10 @@ textarea:focus {
     transition: all .3s;
 }
 
-#contact .contact-section .contact-info .list-info>li:first-child .info-details {
+#contact .contact-section .contact-info .list-info > li:first-child .info-details {
     padding-top: 0;
 }
+
 #contact .contact-section .contact-info .list-info .info-details {
     border-left: 2px solid #000;
     padding: 12px 0 12px 22px;
@@ -721,28 +761,3 @@ footer span {
     border-radius: 10px;
     /*display: none;*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

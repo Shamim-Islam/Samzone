@@ -770,7 +770,8 @@ footer span {
 .text-1,
 .text-2,
 .text-3,
-.banner-wrapper a {
+.banner-wrapper a,
+.section-title {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
@@ -791,6 +792,6 @@ footer span {
 }
 
 .banner-wrapper a {
-    -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
 }

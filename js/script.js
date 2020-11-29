@@ -165,3 +165,9 @@ $(document).ready(function () {
     });
 
 });
+
+/*------------ Wow init -------------*/
+
+$(window).ready(function () {
+    new WOW().init();
+});

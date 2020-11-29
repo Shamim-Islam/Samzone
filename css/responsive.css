@@ -99,6 +99,8 @@
     /* banner */
     #banner {
         background-image: url(../img/banner-768-991.png);
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
     }
 
@@ -250,6 +252,8 @@
     /* banner */
     #banner {
         background-image: url(../img/banner-768-991.png);
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
     }
 
@@ -498,6 +502,8 @@
     /* banner */
     #banner {
         background-image: url(../img/banner-576.png);
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
     }
 

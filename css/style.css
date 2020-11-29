@@ -665,6 +665,7 @@ form h4 {
 
 input:focus,
 textarea:focus {
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
 
@@ -705,6 +706,7 @@ textarea:focus {
     line-height: 100%;
     color: #3dcfd3;
     width: 60px;
+    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
@@ -727,6 +729,7 @@ textarea:focus {
 
 .info-type {
     font-weight: 700;
+    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
@@ -768,21 +771,26 @@ footer span {
 .text-2,
 .text-3,
 .banner-wrapper a {
+    -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
 
 .text-1 {
+    -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
 
 .text-2 {
+    -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
 
 .text-3 {
+    -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
 
 .banner-wrapper a {
+    -webkit-animation-delay: 2.5s;
     animation-delay: 2.5s;
 }

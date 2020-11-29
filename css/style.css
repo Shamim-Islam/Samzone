@@ -761,3 +761,28 @@ footer span {
     border-radius: 10px;
     /*display: none;*/
 }
+
+/*-------------------------- Animations -------------------------*/
+
+.text-1,
+.text-2,
+.text-3,
+.banner-wrapper a {
+    animation-duration: 1.5s;
+}
+
+.text-1 {
+    animation-delay: 1s;
+}
+
+.text-2 {
+    animation-delay: 1.5s;
+}
+
+.text-3 {
+    animation-delay: 2s;
+}
+
+.banner-wrapper a {
+    animation-delay: 2.5s;
+}

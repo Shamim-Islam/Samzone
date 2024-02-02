@@ -9,7 +9,7 @@ $(window).on('load', function () {
 /*------------ typing animation script -------------*/
 
 var typed = new Typed(".typing", {
-    strings: ["Web Designer.", "Web Developer.", "Freelancer."],
+    strings: ["Web Designer.", "Web Developer.", "Cyber Security Researcher.", "Ethical Hacker.", "Web Pentester.", "CTF Player."],
     typeSpeed: 50,
     backSpeed: 40,
     stratDelay: 1000,

@@ -274,6 +274,9 @@ body {
 .about-img {
     height: 500px;
 }
+.abt-img {
+    height: 42px;
+}
 
 .about-content h2 {
     font-weight: 700;

@@ -756,9 +756,10 @@ footer p {
     color: crimson;
 }*/
 
-footer p span {
+footer span {
     color: #3dcfd3;
     font-weight: bold;
+    font-style: italic;
 }
 
 .btn-back-to-top {
